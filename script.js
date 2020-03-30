@@ -23,7 +23,7 @@ if (ctrlBtn) {
    }
     document.querySelector('table').addEventListener('click', infoLogger);
     addBtn.addEventListener('click', () => {
-        document.querySelector('tbody').insertAdjacentHTML('beforeend', '<tr><td>It\'s hard</td><td>to teach</td><td><a href=""> JS</a></td></tr>')
+        document.querySelector('tbody').insertAdjacentHTML('beforeend', '<tr><td>It\'s difficult</td><td>to study</td><td><a href=""> JS</a></td></tr>')
       });
 
       const keydownHandler = (event) => {
